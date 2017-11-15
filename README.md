@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Cenze9/DeX12/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# DirectX-Graphics-Samples
+This repo contains the DirectX Graphics samples that demonstrate how to build graphics intensive applications for Windows 10. We also have a YouTube channel! Visit us here: https://www.youtube.com/MicrosoftDirectX12andGraphicsEducation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## API Samples
+In the Samples directory, you will find samples that attempt to break off specific features and specific usage scenarios into bite sized chunks. For example, the ExecuteIndirect sample will show you just enough about execute indirect to get started with that feature without diving too deep into multiengine whereas the nBodyGravity sample will delve into multiengine without touching on the execute indirect feature etc. By doing this, we hope to make it easier to get started with DirectX 12.
 
-### Markdown
+Recent API Sample Updates:
+1. D3D12 Depth Bounds Test: This sample demos how to use depth bounds test with DirectX 12. In addition, it introduces a more flexible way to create pipeline state, called Pipeline State Object Stream (PSO Stream). PSO Stream is required to use Depth Bounds Test feature.
+2. Shader Model 6 Wave Intrinsics: This sample visualizes several new wave intrinsics in Shader Model 6.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## MiniEngine: A DirectX 12 Engine Starter Kit
+In addition to the samples, we are announcing the first DirectX 12 preview release of the MiniEngine.
 
-```markdown
-Syntax highlighted code block
+It came from a desire to quickly dive into graphics and performance experiments.  We knew we would need some basic building blocks whenever starting a new 3D app, and we had already written these things at countless previous gigs.  We got tired of reinventing the wheel, so we established our own core library of helper classes and platform abstractions.  We wanted to be able to create a new app by writing just the Init(), Update(), and Render() functions and leveraging as much reusable code as possible.  Today our core library has been redesigned for DirectX 12 and aims to serve as an example of efficient API usage.  It is obviously not exhaustive of what a game engine needs, but it can serve as the cornerstone of something new.  You can also borrow whatever useful code you find.
 
-# Header 1
-## Header 2
-### Header 3
+### Some features of MiniEngine
+* High-quality anti-aliased text rendering
+* Real-time CPU and GPU profiling
+* User-controlled variables
+* Game controller, mouse, and keyboard input
+* A friendly DirectXMath wrapper
+* Perspective camera supporting traditional and reversed Z matrices
+* Asynchronous DDS texture loading and ZLib decompression
+* Large library of shaders
+* Easy shader embedding via a compile-to-header system
+* Easy render target, depth target, and unordered access view creation
+* A thread-safe GPU command context system (WIP)
+* Easy-to-use dynamic constant buffers and descriptor tables
 
-- Bulleted
-- List
+## Requirements
+* Windows 10
+* [Visual Studio 2017](https://www.visualstudio.com/) with the [Windows 10 Fall Creators Update SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
 
-1. Numbered
-2. List
+## Contributing
+We're always looking for your help to fix bugs and improve the samples.  File those pull requests and we'll be happy to take a look.
 
-**Bold** and _Italic_ and `Code` text
+Find more information on DirectX 12 on our blog: http://blogs.msdn.com/b/directx/
 
-[Link](url) and ![Image](src)
-```
+Troubleshooting information for this repository can be found in the site [Wiki](https://github.com/Microsoft/DirectX-Graphics-Samples/wiki).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Cenze9/DeX12/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
