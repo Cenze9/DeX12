@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Machine>AOTA1-1L141-08D</Machine>
-    <WindowsUser>henrileh</WindowsUser>
+    <WindowsUser>Henrileh</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,14 +10,14 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e28f29e1-89c5-4269-9113-caae026bffd0</PackageIdentityName>
     <PackageIdentityPublisher>CN=henrileh</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Debug\Dex12\AppX</LayoutDir>
+    <LayoutDir>C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Debug\Dex12\AppX</LayoutDir>
     <RegisteredManifestChecksum>056BC05628D9986145ED5EF30A9EC6EC0F8B6F7B9F017129D043E891A0FC5451</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e28f29e1-89c5-4269-9113-caae026bffd0_1.0.0.0_x86__nv2rvgzqrq2a0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e28f29e1-89c5-4269-9113-caae026bffd0_nv2rvgzqrq2a0!App</RegisteredUserModeAppID>
@@ -27,71 +27,71 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Debug\Dex12\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Debug\Dex12\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:58:04.183</Modified>
+      <Modified>2018-01-22T14:36:37.517</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Debug\Dex12\Dex12.exe">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Debug\Dex12\Dex12.exe">
       <PackagePath>Dex12.exe</PackagePath>
-      <Modified>2018-01-15T16:00:23.205</Modified>
+      <Modified>2018-01-22T14:38:27.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Debug\Dex12\Dex12.winmd">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Debug\Dex12\Dex12.winmd">
       <PackagePath>Dex12.winmd</PackagePath>
-      <Modified>2018-01-15T12:58:03.476</Modified>
+      <Modified>2018-01-22T14:33:14.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-01-15T12:18:13.018</Modified>
+      <Modified>2018-01-22T14:33:14.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:18:13.018</Modified>
+      <Modified>2018-01-22T14:33:14.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:18:13.018</Modified>
+      <Modified>2018-01-22T14:33:14.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:18:13.018</Modified>
+      <Modified>2018-01-22T14:33:14.810</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:18:13.018</Modified>
+      <Modified>2018-01-22T14:33:14.812</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:18:13.018</Modified>
+      <Modified>2018-01-22T14:33:14.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Dex12\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Dex12\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:18:13.018</Modified>
+      <Modified>2018-01-22T14:33:14.814</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Debug\Dex12\SamplePixelShader.cso">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Debug\Dex12\SamplePixelShader.cso">
       <PackagePath>SamplePixelShader.cso</PackagePath>
-      <Modified>2018-01-15T15:11:22.993</Modified>
+      <Modified>2018-01-22T14:35:58.106</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Debug\Dex12\SampleVertexShader.cso">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Debug\Dex12\SampleVertexShader.cso">
       <PackagePath>SampleVertexShader.cso</PackagePath>
-      <Modified>2018-01-15T12:57:58.862</Modified>
+      <Modified>2018-01-22T14:35:58.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.15063.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
       <Modified>2017-09-29T18:11:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DeX12\Dex12\Debug\Dex12\resources.pri">
+    <AppxPackagedFile Include="C:\Users\henrileh\Documents\Repos\DX12\DX12\DeX12\Dex12\Debug\Dex12\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T12:58:04.022</Modified>
+      <Modified>2018-01-22T14:36:37.375</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -411,7 +411,7 @@ void Sample3DSceneRenderer::Rotate(float radians)
 
 void Sample3DSceneRenderer::StartTracking()
 {
-	m_tracking = true;
+	m_tracking = false;
 }
 
 // When tracking, the 3D cube can be rotated around its Y axis by tracking pointer position relative to the output screen width.
